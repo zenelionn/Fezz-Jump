@@ -384,6 +384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   rb: {fileID: 1054178000}
+  fezziwig: {fileID: 1054177999}
 --- !u!1 &1432475919
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,7 +567,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformPrefab: {fileID: 897977995}
-  platformCount: 100
+  xRange: 7
+  yRangeMin: 2
+  yRangeMax: 3
+  player: {fileID: 1054177998}
+  spawnDistanceAhead: 10
+  despawnDistanceBelow: 15
 --- !u!4 &1501105148
 Transform:
   m_ObjectHideFlags: 0

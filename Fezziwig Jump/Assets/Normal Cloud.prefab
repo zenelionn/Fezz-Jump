@@ -155,8 +155,10 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -9.21, y: 0}
-  - {x: 9.21, y: 0}
+  - {x: -8.01146, y: 0}
+  - {x: -8.109901, y: -0.00000011920929}
+  - {x: 8.412829, y: -0.00000011920929}
+  - {x: 8.097072, y: -0.042805076}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
